@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.prateekthakur.flutter_media_metadata"
+    
     compileSdkVersion 32
 
     defaultConfig {
